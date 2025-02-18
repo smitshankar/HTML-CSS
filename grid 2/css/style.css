@@ -1,0 +1,134 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+  width:500px;
+  height:525px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  color:rgba(255, 255, 255, 0.8);
+ }
+.item1 {
+	grid-area:1/1/3/2;
+	background-color: #102C57;
+}
+.item2 {
+	grid-area:1/2/4/3;
+	background-color: #557A46;
+}
+.item3 {
+	grid-area:1/3/6/4;
+	background-color: #982176;
+}
+.item4 {
+	grid-area:1/4/6/5;
+	background-color: #090580;
+}
+.item5 {
+	grid-area:1/5/2/6;
+	background-color: #97FEED;
+}
+.item6 {
+	grid-area:1/6/3/7;
+	background-color: #461959;
+}
+.item7 {
+	grid-area:3/1/8/2;
+	background-color: #8EAC50;
+}
+.item8 {
+	grid-area:4/2/7/3;
+	background-color: #9AC5F4;
+}
+.item9 {
+	grid-area:6/3/8/4;
+	background-color: #A0D8B3;
+}
+.item10 {
+	grid-area:6/4/8/5;
+	background-color: #F2EAD3;
+}
+.item11 {
+	grid-area:2/5/5/6;
+	background-color: #884A39;
+}
+.item12 {
+	grid-area:3/6/8/7;
+	background-color: #00DFA2;
+}
+.item13 {
+	grid-area:7/2/8/3;
+	background-color: #B31312;
+}
+.item14 {
+	grid-area:5/5/8/6;
+	background-color: #F1D4E5;
+}
+.item15 {
+	grid-area:8/1/13/2;
+	background-color: #00DFA2;
+}
+.item16 {
+	grid-area:8/2/11/3;
+	background-color: #F1D4E5;
+}
+.item17 {
+	grid-area:8/3/10/4;
+	background-color: #00DFA2;
+}
+.item18 {
+	grid-area:8/4/10/5;
+	background-color: #F2EAD3;
+}
+.item19 {
+	grid-area:8/5/9/6;
+	background-color: #B31312;
+}
+.item20 {
+	grid-area:8/6/13/7;
+	background-color: #8EAC50;
+}
+.item21 {
+	grid-area:13/1/15/2;
+	background-color: #461959;
+}
+.item22 {
+	grid-area:11/2/14/3;
+	background-color: #884A39;
+}
+.item23 {
+	grid-area:10/3/15/4;
+	background-color: #090580;
+}
+.item24 {
+	grid-area:10/4/15/5;
+	background-color: #982176;
+}
+.item25 {
+	grid-area:9/5/12/6;
+	background-color: #9AC5F4;
+}
+.item26 {
+	grid-area:13/6/15/7;
+	background-color: #102C57;
+}
+.item27 {
+	grid-area:14/2/15/3;
+	background-color: #97FEED;
+}
+.item28 {
+	grid-area:12/5/15/6;
+	background-color: #557A46;
+}
+.flex {
+	display:grid;
+	justify-content:center;
+	align-items:center;
+}
+
